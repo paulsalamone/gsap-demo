@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+$red: rgb(255, 53, 17);
+$blue1: #0000db;
+$blue2:#000021;
+
+body {
+    background-color: $blue1;
+    color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    padding: 1rem 2rem;
+    max-width: 1000px;
+}
+
+
+h1 {
+    border-bottom: 2px solid white;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+h2 {
+margin-top: 10rem;
+font-size: 2rem;
+}
+
+
+p {
+    background-color: $blue2;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+}
+
+.structure {
+    border:2px solid white;
+}
+span {
+    color: $red;
+  
+}
+
+button {
+    background-color: white ;
+   color: $red;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: 0px;
+    margin: 1rem;
+}
+
+.demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: $blue2;
+    font-size: 1.5rem;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: #22ee22;
+}
+
+.puffer {
+    background-color: $blue1;
+    font-style: italic;
+}
+
+#demo5 {
+    border: 1px dotted #22ee22;
+    // padding: 1rem;
+    // height: 300px;
+}
+
+#demo6 {
+    position: relative;
+    width: 90vw;
+    overflow: hidden;
+    // height: 100vh;
+    height: 600px;
+    border: 3px solid $blue2;
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+
+    text-align:center;
+   
+}
+
+#demo6-slide {
+    background-color: $red;
+    transform: translateX(-1000px);
+    top: 50%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+#steve {
+    transform: translateX(-2000px);
+    top: 40%;
+    border-radius: 2rem;
+    background-color: salmon;
+}
+#dan {
+    transform: translateX(-2000px);
+    top: 30%;
+    border-radius: 2rem;
+    background-color: goldenrod;
+}
+
+
+.demo-slide {
+    height: 300px;
+    width: 80%;
+    border: 1px dotted $blue2;
+}
